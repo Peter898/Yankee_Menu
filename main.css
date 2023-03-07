@@ -1,0 +1,20 @@
+body
+{
+    margin: 0%;
+    /* background-image: url("./pizza_background.avif"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pizza_background.avif');
+    background-position: center  center;
+    background-blend-mode:darken;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: large;
+    padding-bottom: 2.5%;
+
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
